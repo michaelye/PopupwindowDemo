@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="act_main_item_text_color">#505355</color>
+    <color name="header_button_text_color">#e5e9ec</color>
+    <color name="element_green">#55bc75</color>
+    <color name="element_yellow">#f39700</color>
+    <color name="element_earth_yellow">#b28850</color>
+    <color name="element_purple">#7e489b</color>
+    <color name="element_blue">#5490c7</color>
+
+</resources>

@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:id="@+id/ll_head_bar"
+        style="@style/header_linear_layout"
+        android:layout_alignParentTop="true" >
+
+        <Button
+            android:id="@+id/btn_back"
+            style="@style/header_button_back"
+            android:layout_marginLeft="8dip" />
+
+        <TextView
+            style="@style/header_text_view"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/ib_operate_more"
+            style="@style/header_button_operate"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="10dip"
+            android:src="@drawable/ico_headbar_more" />
+    </LinearLayout>
+
+</RelativeLayout>

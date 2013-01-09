@@ -1,0 +1,69 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- 页面头部  返回按钮样式 -->
+    <style name="header_button_back" parent="@android:style/TextAppearance.Widget.Button">
+        <item name="android:textSize">@dimen/header_text_size</item>
+        <item name="android:textColor">@color/header_button_text_color</item>
+        <item name="android:layout_height">@dimen/header_button_height</item>
+        <item name="android:layout_width">@dimen/header_button_back_width</item>
+        <item name="android:background">@drawable/btn_back_selector</item>
+        <item name="android:text">返回</item>
+        <item name="android:layout_marginLeft">8dip</item>
+        <item name="android:paddingLeft">8dp</item>
+       <item name="android:layout_gravity">center</item> 
+    </style>
+    
+    
+    <!-- 页面头部  标题样式 -->
+    <style name="header_text_view" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">@dimen/header_title_text_size</item>
+        <item name="android:textColor">@color/header_button_text_color</item>
+        <item name="android:layout_height">@dimen/header_button_height</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item> 
+        <item name="android:text">标题</item>
+    </style> 
+    
+    
+     <!-- 页面头部  操作按钮样式 -->
+    <style name="header_button_operate" parent="@android:style/TextAppearance.Widget.Button">
+       <item name="android:textSize">@dimen/header_text_size</item>
+        <item name="android:textColor">@color/header_button_text_color</item>
+        <item name="android:layout_height">@dimen/header_button_height</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">9dip</item>
+        <item name="android:background">@drawable/btn_operation_selector</item>
+        <item name="android:text">操作</item> 
+        <item name="android:layout_gravity">center</item> 
+    </style>
+    
+    
+      <!-- 页面头部 容器样式 -->
+    <style name="header_linear_layout"> 
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/header_height</item>
+        <item name="android:background">@drawable/bg_navbar_no_line</item> 
+        <item name="android:gravity">center</item> 
+         
+    </style> 
+
+</resources>
